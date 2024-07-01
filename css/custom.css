@@ -1,0 +1,328 @@
+.about-image {
+    position: relative;
+    max-width: 665px;
+    height: 635px;
+    margin-left: auto;
+}
+
+.about-image .single-image::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.about-image .single-image {
+    /* -webkit-transform: rotate(45deg); */
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); 
+    position: absolute;
+    z-index: 1;
+}
+
+.about-image .single-image.image-1 {
+    top: 72px;
+    right: 63px;
+}
+
+
+.about-image .single-image.image-1::before {
+    right: -14px;
+    top: -14px;
+    background-color: #07294d;
+}
+
+
+
+.about-image .single-image.image-2 {
+    top: 56%;
+    left: 29%;
+}
+
+.about-image .single-image.image-2::before {
+    right: -12px;
+    bottom: -12px;
+    background-color: #27b8a7;
+}
+
+.about-image .single-image.image-3 {
+    top: 31%;
+    left: 49px;
+}
+
+.about-image .single-image.image-3::before {
+    bottom: -10px;
+    left: -10px;
+    background-color: #0c8b51;
+}
+
+.about-image .single-image.image-4 {
+    top: 38px;
+    left: 24%;
+}
+
+.about-image .single-image.image-4::before {
+    top: -10px;
+    left: -10px;
+    background-color: #2f7ad5;
+}
+
+.about-image .about-icon {
+    position: absolute;
+}
+
+.about-image .about-icon.icon-1 {
+    left: 75px;
+    top: 105px;
+}
+
+.about-image .about-icon.icon-2 {
+    top: 18px;
+    left: 53%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.about-image .about-icon.icon-3 {
+    left: 50px;
+    bottom: 28%;
+}
+
+.about-image .about-icon.icon-4 {
+    right: 140px;
+    bottom: 25%;
+}
+
+
+
+ /* ############ why ask ############ */
+
+
+
+.about-3-block {
+    background-color: white;
+    box-shadow: 0 0 5px 0;
+            background: inherit;
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 25px;
+}
+
+.why-ask-sec {
+    
+
+            border-radius: 8px;
+            padding: 2rem;
+            -webkit-box-shadow: 0px 0px 8px #e7e7e7;
+            box-shadow: 0px 0px 8px #e7e7e7;
+            position: relative;
+            /* border: 1px solid rgba(6, 18, 14, 0.2509803922); */
+            transform: rotate(0deg);
+            z-index: 3;
+            background-color: #06BBCC;
+            
+
+
+}
+
+.why-ask-sec:after {
+    content: "";
+    position: absolute;
+    z-index: -4;
+    transform: rotate(2deg);
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: 0;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(6, 18, 14, 0.2509803922);
+}
+
+.why-ask p {
+    font-size: 18px;
+}
+
+
+ /* ############ why start ############ */
+
+.why-start-left img {
+    width: 60px;
+}
+
+
+.why-start-left .content-sec {
+
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.why-start-left .content-sec .icon{
+    margin-right: 15px;
+}
+
+.why-start-left .content-sec p {
+    margin-bottom: 0px;
+}
+
+
+/* .why-start-left .about-content-eight .about-content-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+
+.why-start-left .about-content-eight .about-content-inner .list-wrap {
+    width: 58%;
+}
+
+.why-start-left .list-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+.why-start-left .about-content-eight .about-content-inner .list-wrap li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+} */
+
+.about-3-icon-1 {
+    z-index: 10;
+    object-fit: contain;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    
+}
+
+.about-3-icon-1 img {
+    color: #06BBCC;
+}
+
+.heading.is-about-3-title {
+    font-size: 28px;
+    line-height: 36px;
+}
+.heading {
+    z-index: 10;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.3em;
+    position: relative;
+}
+
+
+ /* ############ why start ############ */
+
+
+.who-we-are-wrapper {
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0),#06BBCC );*/
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,187,204,0) 100%); */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, #c4e9ee 100%);
+}
+
+.who-we-are-right .icon {
+    z-index: 1;
+    border: 1px solid #06BBCC;
+    border-radius: 10px;
+    background-color: var(--color-20-opacity);
+    padding: 6px 6px;
+    height: 28px;
+    color: #06BBCC;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    margin-right: 15px;
+}
+
+.about-us-img {
+    border-radius: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.who-we-are-left img{
+    border-radius: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+.who-we-are-right .content-sec p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.who-we-are-right .content-sec{
+    padding-bottom: 15px;
+}
+
+
+@media (max-width: 767px) {
+    .why-ask-sec {
+        overflow: hidden;
+    }
+    .about-image {
+        height: auto;
+    }
+    .about-image .single-image img {
+        width: 100%;
+    }
+
+        .about-image .single-image {
+            position: relative;
+            -webkit-transform: rotate(45deg) scale(.6);
+            -moz-transform: rotate(45deg) scale(.6);
+            -ms-transform: rotate(45deg) scale(.6);
+            -o-transform: rotate(45deg) scale(.6);
+            transform: rotate(45deg) scale(.6);
+        }
+    
+
+    .about-image .single-image.image-1 {
+        top: 0;
+        right: 0;
+        margin: 30px 0;
+    }
+
+    .about-image .single-image.image-2 {
+        top: 0;
+        left: 0;
+    }
+    .about-image .single-image.image-3 {
+        top: 34%;
+        left: -14px;
+        position: absolute;
+    }
+    .about-image .single-image.image-4 {
+        top: 34%;
+        left: auto;
+        right: -14px;
+        position: absolute;
+    }
+
+    .about-image .about-icon.icon-1 {
+        left: 30px;
+        top: 25px;
+    }
+    .about-image .about-icon.icon-2 {
+        top: 25px;
+        left: 80%;
+    }
+    .about-image .about-icon.icon-3 {
+        left: 0;
+        bottom: 32%;
+    }
+    .about-image .about-icon.icon-4 {
+        right: 25px;
+        bottom: 33%;
+    }
+}
